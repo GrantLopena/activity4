@@ -49,6 +49,5 @@ printf("\n and the remainder is \n ");
 
 for(j=0;j<4;j++)
 printf("%d",f[j]);
-
 getch();
 }
