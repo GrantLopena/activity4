@@ -51,6 +51,5 @@ word16 checksum(byte *addr, word32 count)
   /* Fold 32-bit sum to 16 bits*/   
   while (sum>>16)
     sum = (sum & 0xFFFF) + (sum >> 16);
-
   return(~sum);
 }
